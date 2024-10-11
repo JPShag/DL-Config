@@ -1,0 +1,73 @@
+// CFG Options from Source 2 Engine
+// feel free to add these commands to your autoexec.cfg. But they probably don't exist in deadlock and have no effect
+// Testing maybe not workin in DeadLock
+
+
+
+
+// r_farz -1                            // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_disable_ragdolls "1"              // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// func_break_max_pieces "0"            // Can not change replicated ConVar func_break_max_pieces from console of client, only server operator can change its value. 
+// r_drawtracers 0                      // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// lb_shadow_map_culling false          // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_phys_enabled "0"                  // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_phys_sleep_enable "1"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_predict "1"                       // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_ragdoll_lru_debug "0"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// cl_extrapolate "0"                   // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// r_shadows "0"                        // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// particles_multiplier "0"             // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// fog_enable "false"                   // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+// r_particle_max_draw_distance "1000"  // is cheat protected, change ignored. Flagged as cheat dont use in multiplayer. Bannable in Multiplayer! (it will dont work in Multiplayer)!
+
+
+mat_parallaxmap "0"
+r_maxdlights 0
+mat_mipmaptextures 0
+ssao_enabled 0
+sssss_enable 0
+particle_cpu_level 0
+cl_ragdoll_maxcount 0
+noise_filter_scale 0
+nx_static_lobby_mode 2
+cl_gib_allow 0
+cl_gib_attack_dir_scale 0
+r_cleardecals
+
+r_cullshadowworldmeshes 0
+r_deferred_decals 0
+shadow_always_update 0
+shadow_maxdynamic 0
+m_acceleration "0"
+mat_debug_tonemapping_disable 1
+
+mat_fastnobump 1
+mat_fastspecular 0
+mat_fxaa_enable "0"
+mat_hide_sun_in_last_cascade 1
+mat_phong 0
+mat_screen_blur_override 1
+mat_screen_blur_enabled 0
+mat_sharpen_amount 1
+mat_vignette_enable 0
+hud_setting_showHopUpPopUp "0"
+
+voice_showchannels 1
+voice_showincoming 1
+show_loading_progress 1
+showvideos 0
+cl_showClanTags 0
+cl_showLoadMovies 0
+cl_show_splashes 0
+hud_setting_showTips 0
+
+csm_enabled "0"
+r_createmodeldecals 0
+
+r_maxmodeldecal "0"
+r_drawflecks "0"
+r_staticprop_lod "-1"
+r_shadowrendertotexture "0"
+r_motionblur_enabled "0"
+
+r_cheapwaterend "1"
